@@ -2,7 +2,7 @@
 let inf=prompt("enter your name");
 console.log("hello",inf );
 
-let scr = prompt("enter your number to change in gpa");
+let scr = prompt("enter your number upto 100 to change in gpa");
 if(scr>=90 && scr<=100) {
     console.log(inf,"Congratulation! you have score A+ ");
 }
