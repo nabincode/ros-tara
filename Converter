@@ -1,11 +1,6 @@
 {
-let inf=prompt("enter your name");
-do {
-    prompt("enter your name");
-}
-while(inf == "");
+let inf=prompt("enter your name"); while(inf=""){ inf=prompt("enter your name");}
 alert(inf,"welcome to percentage conveter", );
-
 let scr = prompt("Enter your percentage % ");
 while(scr == "") {
     prompt("Enter your percentage %");
